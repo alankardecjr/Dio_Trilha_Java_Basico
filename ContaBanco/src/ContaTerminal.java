@@ -1,4 +1,3 @@
-//TODO: Conhecer e importar a classe scanner
 //Exibir as mensagens para o usuario
 //Obter pelo scanner os valores digitados no terminal
 //Exibir a mensagem "conta criada com sucesso"
@@ -31,7 +30,7 @@ public class ContaTerminal {
         String nome = scanner.next();
 
         System.out.println("Digite o saldo a ser depositado: ");
-        int saldo = scanner.nextInt();
+        double saldo = scanner.nextDouble();
 
 
         System.out.println(" ");
