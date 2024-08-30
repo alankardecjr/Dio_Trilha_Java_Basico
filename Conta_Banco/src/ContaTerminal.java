@@ -13,10 +13,11 @@ public class ContaTerminal {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         //Menssagem de entrada
-        System.out.println("---------------------------------------");
+        System.out.println(" ");
+        System.out.println("+-------------------------------------+");
         System.out.println("|*Seja bem vindo ao terminal do Banco*|");
         System.out.println("| ***Por favor insira seus dados***   |");
-        System.out.println("---------------------------------------");
+        System.out.println("+-------------------------------------+");
         System.out.println(" ");
 
         //Coletando os dados do usuario
@@ -34,12 +35,15 @@ public class ContaTerminal {
 
 
         System.out.println(" ");
-        System.out.println("--------------------------------");
-        System.out.println("*Operação realizada com sucesso*");
-        System.out.println("--------------------------------");
+        System.out.println("+------------------------------------+");
+        System.out.println("|***Operação realizada com sucesso***|");
+        System.out.println("+------------------------------------+");
         System.out.println(" ");
-        System.out.println("Olá " + nome + " obrigado por acessar nosso terminal,foi depositado o valaor de: " + saldo + " R$ " + " na agência: " + agencia + " ,conta: " + conta);        
-        System.out.println(" ");
+        System.out.println("Olá " + nome + ", seu saldo é: " + saldo + " R$" + " agência: " + agencia + " conta: " + conta); 
+        System.out.println(" ");       
+        System.out.println("+-------------------------------------+");
+        System.out.println("|***** Agradecemos a preferencia *****|");
+        System.out.println("+-------------------------------------+");
         
         
     }
